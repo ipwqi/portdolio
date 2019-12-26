@@ -138,8 +138,10 @@ mobile{width: 100%; position:fixed;bottom: 0}
         display: flex;
         justify-content: space-between;}
 /*スマホの幅に合わせた紹介部分*/
-        .product ul li figure{border:1px solid #999;width:450px;}
-        .product ul li figure div{width:450px;height:337px;overflow:hidden;}
+        .product ul li figure{border:1px solid #999;width:300px;}
+        .product ul li figure div{width:300px;height:200px;overflow:hidden;}
+        .product ul li figcaption{margin: 0;text-align:center;}
+        .product ul li figure div iframe{transform:scale(0.28);-o-transform:scale(0.28);-webkit-transform:scale(0.28);-moz-transform:scale(0.28);-ms-transform:scale(0.28);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;}
 /*マホの幅に合わせた紹介部分*/
 }
 
