@@ -13,11 +13,11 @@
             <div class="header_left">
                 <h1>ロゴ</h1>
             </div>
-            <nav class="header_nav">      
-<script>
-var nav="<div class='buttons-coll'><button class='nav-btn btn-1'><h2><a href=''>アイウエオ</a></h2></button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button></div>";
-console.log(nav);
-</script>
+            <nav class="header_nav">
+                <script>
+                nav();
+                function nav(){document.write("<div class='buttons-coll'><button class='nav-btn btn-1'><h2><a href=''>アイウエオ</a></h2></button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button><button class='nav-btn btn-1'>1</button></div>");}   
+                </script>
             </nav>
             <div class="header_right">
                 <form action="./setcss.cgi" method="get" name="mainForm">
@@ -50,34 +50,34 @@ console.log(nav);
             </div>
             <p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
         </main>
-        <aside class="grid_aside">            
-<script>
-var aside="<h2>Portfolio</h2><p>このサイトは1年の間に作成したものです</p><div id='toc'><label class='toc-taitle'>目次</label><ul><li><a href='#toc1'>自己紹介</a></li><li><a href='#product'>制作物</a><ol><a href='#Referral-frame'>製作物紹介部分</a></ol><ol>2</ol></li></ul></div><h2>SNS</h2>";
-console.log(aside);
-</script>  
-
+        <aside>
+            <script>
+            aside();
+            function aside(){document.write("<h2>Portfolio</h2><p>このサイトは1年の間に作成したものです</p><div id='toc'><label class='toc-taitle'>目次</label><ul><li><a href='#toc1'>自己紹介</a></li><li><a href='#product'>制作物</a><ol><a href='#Referral-frame'>製作物紹介部分</a></ol><ol>2</ol></li></ul></div><h2>SNS</h2>");}   
+            </script>
         </aside>
         <footer class="grid_footer">
             フッダー
         </footer>
         <mobile class="grid_mobile">
-<div class='mobile-nav'>
+        <div class='mobile-nav'>
             <input id='nav-input' type='checkbox' >
             <label id='drawer-open' for='nav-input'><span></span></label>
             <label id='nav-close' for='nav-input'></label>
             <div id='nav-content'>
-            <script>console.log(nav);</script>
+            <script>nav();</script>
             </div>
-</div>
+        </div>
 
-<div class='mobile-aside'>      
+    <div class='mobile-aside'>      
         <input id='aside-input' type='checkbox' >
         <label id='drawer-open' for='aside-input'><span></span></label>
         <label id='aside-close' for='aside-input'></label>
         <div id='aside-content'>  
-            <script>console.log(aside);</script>
+            <script>aside();</script>
         </div>                
-</div>
+    </div>
+
         </mobile>
     </div>
     <!-- /.grid_container -->
