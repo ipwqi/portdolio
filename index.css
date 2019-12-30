@@ -45,7 +45,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
     /* スマホ用のCSS */
 /*        aside{bottom: 0;position: fixed;right: 0;}*/
       /*アイコンのスペース*/
-      #drawer-open {
+      #drawer-open {text-align: center;
           display: inline-block;
           width: 50px;
           height: 22px;
