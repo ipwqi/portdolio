@@ -47,7 +47,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
       /*アイコンのスペース*/
       #drawer-open {
           display: inline-block;
-          width: 30px;
+          width: 50px;
           height: 22px;
           vertical-align: middle;} 
 
