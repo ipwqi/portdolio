@@ -48,18 +48,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
           width: 30px;
           height: 22px;
           vertical-align: middle;} 
-      /*ハンバーガーアイコンをCSSだけで表現*/
-      #drawer-open span, #drawer-open span:before, #drawer-open span:after {
-          position: absolute;
-          height: 3px;/*線の太さ*/
-          width: 25px;/*長さ*/
-          border-radius: 3px;
-          background: #555;
-          display: block;
-          content: '';
-          cursor: pointer;}
-      #drawer-open span:before {bottom: -8px;}
-      #drawer-open span:after {bottom: -16px;}
+
       /*閉じる用の薄黒カバー*/
         #aside-close {
             display: none;/*はじめは隠しておく*/
