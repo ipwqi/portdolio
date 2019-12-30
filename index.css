@@ -39,7 +39,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
 
 /*目次*/
 @media screen and (max-width: 600px) {
-    
+    .font{font-size: small;}
     /* スマホ用のCSS */
 /*        aside{bottom: 0;position: fixed;right: 0;}*/
       /*アイコンのスペース*/
