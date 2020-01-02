@@ -166,6 +166,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
 
 /*色替え*/
     /*白文字青背景*/
+#style-wb>a{ color:#FFF;}
     #style-wb {
         position: relative;
         display: inline-block;
@@ -196,6 +197,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
         /*navボタン*/
     /*白文字青背景*/
     /*黄文字黒背景*/
+#style-yb>a{ color:#FFF;}
     #style-yb {
         position: relative;
         display: inline-block;
@@ -226,6 +228,7 @@ mobile{width: 100%; position:fixed;bottom: 0}
         /*navボタン*/
     /*黄文字黒背景*/
     /*黒文字白背景*/
+#style-bw>a{ color:#FFF;}
     #style-bw {
         position: relative;
         display: inline-block;
